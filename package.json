@@ -1,0 +1,19 @@
+{
+  "name": "lerna.simple.example",
+  "version": "1.0.0",
+  "description": "Lerna simple example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgeniy-logvinov/lerna.simple.example.git"
+  },
+  "author": "evgeniy.logvinov.k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evgeniy-logvinov/lerna.simple.example/issues"
+  },
+  "homepage": "https://github.com/evgeniy-logvinov/lerna.simple.example#readme"
+}
