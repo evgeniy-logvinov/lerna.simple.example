@@ -1,6 +1,6 @@
 {
   "name": "@ekl/app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "main app",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@ekl/first": "^0.0.1",
-    "@ekl/second": "^0.0.1"
+    "@ekl/second": "^0.0.2"
   },
   "author": "evgeniy.logvinov.k",
   "license": "MIT"
