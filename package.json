@@ -5,7 +5,7 @@
   "main": "packages/app/index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lerna run test --stream"
   },
   "workspaces": [
     "packages/*"
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/evgeniy-logvinov/lerna.simple.example#readme",
   "devDependencies": {
+    "jest": "^24.9.0",
     "lerna": "^3.16.4"
   }
 }
