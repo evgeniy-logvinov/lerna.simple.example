@@ -1,11 +1,15 @@
 {
-  "name": "lerna.simple.example",
+  "name": "ekl",
   "version": "1.0.0",
   "description": "Lerna simple example",
-  "main": "index.js",
+  "main": "packages/app/index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evgeniy-logvinov/lerna.simple.example.git"
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/evgeniy-logvinov/lerna.simple.example/issues"
   },
-  "homepage": "https://github.com/evgeniy-logvinov/lerna.simple.example#readme"
+  "homepage": "https://github.com/evgeniy-logvinov/lerna.simple.example#readme",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
 }

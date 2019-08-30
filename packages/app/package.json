@@ -1,10 +1,14 @@
 {
-  "name": "app",
+  "name": "@ekl/app",
   "version": "1.0.0",
   "description": "main app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ekl/first": "^1.0.0",
+    "@ekl/second": "^1.0.0"
   },
   "author": "evgeniy.logvinov.k",
   "license": "MIT"
