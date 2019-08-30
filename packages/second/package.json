@@ -1,6 +1,6 @@
 {
   "name": "@ekl/second",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "second block",
   "main": "index.js",
   "scripts": {
