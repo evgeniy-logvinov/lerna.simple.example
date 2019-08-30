@@ -5,7 +5,8 @@
   "main": "packages/app/index.js",
   "private": true,
   "scripts": {
-    "test": "lerna run test --stream"
+    "test": "lerna run test --stream",
+    "update:version": "lerna version --no-push"
   },
   "workspaces": [
     "packages/*"
